@@ -1,9 +1,11 @@
-import React from 'react'
+import {InputContainer} from "./styles";
 
-const index = () => {
+const Input = () => {
   return (
-    <div>index</div>
+    <InputContainer>
+    olá
+    </InputContainer>
   )
 }
 
-export default index
+export default Input

@@ -12,6 +12,18 @@ justify-content: center;
 
 export const Content = styled.div`
 Background-color: #FFFFFF;
-width: 80%;
-min-height: 350px;
+width: 50%;
+`
+
+export const Row = styled.div`
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-itens: center;
+`
+export const Column = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-itens: center;
 `

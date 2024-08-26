@@ -1,9 +1,11 @@
-import React from 'react'
+import {ButtonContainer} from "./styles"
 
-const index = () => {
+const Button = ({label, onClick}) => {
   return (
-    <div>index</div>
+    <ButtonContainer onclick={onClick}>
+      {label}
+    </ButtonContainer>
   )
 }
 
-export default index
+export default Button;

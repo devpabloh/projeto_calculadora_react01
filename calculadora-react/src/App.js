@@ -53,7 +53,9 @@ const  App = () => {
           break;
         case '-':
           handleMinusNumbers();
-          break;  
+          break;
+        case '*':
+          handleMultiNumbers();  
         default:
           break;
       }

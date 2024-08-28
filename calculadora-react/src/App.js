@@ -65,7 +65,7 @@ const  App = () => {
     }else{
       const multi = Number(firstNumber) * (Number(currentNumber));
       setCurrentNumber(String(multi));
-      setOperation("")
+      setOperation("");
     }
   }
 
@@ -98,7 +98,7 @@ const  App = () => {
         <Row>
         <Button label="C" onClick={handleOnClear}/>
         <Button label="/" onClick={handleDivNumbers}/>
-        <Button label="*" onClick={() => handleAddNumber("*")}/>
+        <Button label="*" onClick={handleMultiNumbers}/>
         <Button label="x"/>
         </Row>
         <Row>
